@@ -33,7 +33,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           EXPECTED_REPOSITORY: "comstud-io/dobrodesk-mobile-sdk"
           EXPECTED_REPOSITORY_URL: "https://github.com/comstud-io/dobrodesk-mobile-sdk"
-          EXPECTED_PACKAGE: "dobrodesk_flutter"
+          EXPECTED_PACKAGE: "dobrodesk_sdk"
         shell: bash
         run: |
           set -euo pipefail
