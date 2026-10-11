@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "sdkVersion": "0.1.0",
+  "wireProtocol": "native-v1",
+  "appearanceSchemaVersion": 2,
+  "minimum": {
+    "ios": "15.1",
+    "android": 26
+  },
+  "wrappers": [
+    {
+      "name": "@dobrodesk/mobile-protocol",
+      "runtime": "typescript",
+      "binaryRoles": []
+    },
+    {
+      "name": "@dobrodesk/react-native-sdk",
+      "runtime": "react-native-new-architecture",
+      "binaryRoles": [
+        "ios-engine",
+        "ios-ui",
+        "android-engine",
+        "android-ui-controller",
+        "android-ui"
+      ]
+    },
+    {
+      "name": "@dobrodesk/nativescript-sdk",
+      "runtime": "nativescript",
+      "binaryRoles": [
+        "ios-engine",
+        "ios-ui",
+        "android-engine",
+        "android-ui-controller",
+        "android-ui",
+        "android-nativescript"
+      ]
+    },
+    {
+      "name": "@dobrodesk/capacitor-sdk",
+      "runtime": "capacitor",
+      "binaryRoles": [
+        "ios-engine",
+        "ios-ui",
+        "android-engine",
+        "android-ui-controller",
+        "android-ui"
+      ]
+    },
+    {
+      "name": "dobrodesk_sdk",
+      "runtime": "flutter",
+      "binaryRoles": [
+        "ios-engine",
+        "ios-ui",
+        "android-engine",
+        "android-ui-controller",
+        "android-ui"
+      ]
+    }
+  ],
+  "iosFrameworks": [
+    {
+      "role": "ios-engine",
+      "path": "native/ios/DobroDeskSDK.xcframework"
+    },
+    {
+      "role": "ios-ui",
+      "path": "native/ios/DobroDeskUI.xcframework"
+    },
+    {
+      "role": "ios-voice",
+      "path": "native/ios/DobroDeskVoice.xcframework"
+    },
+    {
+      "role": "ios-push",
+      "path": "native/ios/DobroDeskPush.xcframework"
+    }
+  ],
+  "iosBinaryToolchain": {
+    "compilerVersions": [
+      "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+    ],
+    "interfaceCompilerVersions": [
+      "6.1.2"
+    ],
+    "languageModes": [
+      "6"
+    ]
+  },
+  "artifacts": [
+    {
+      "role": "ios-engine",
+      "kind": "ios-xcframework-zip",
+      "path": "native/DobroDeskSDK.xcframework.zip",
+      "bytes": 3402097,
+      "sha256": "6a94b27bb02369abf69152ae60b3280068f08748b86d7c79006e71fa4fd15c45"
+    },
+    {
+      "role": "ios-ui",
+      "kind": "ios-xcframework-zip",
+      "path": "native/DobroDeskUI.xcframework.zip",
+      "bytes": 8072861,
+      "sha256": "9e06eae5570e867394906d2bcb2fc7a960496ef531cbcb831762becd7e523e55"
+    },
+    {
+      "role": "ios-voice",
+      "kind": "ios-xcframework-zip",
+      "path": "native/DobroDeskVoice.xcframework.zip",
+      "bytes": 514615,
+      "sha256": "c387cb9f2c1d4d894990983127660ffbb39de39c5f480f8164cf1424c5a52342"
+    },
+    {
+      "role": "ios-push",
+      "kind": "ios-xcframework-zip",
+      "path": "native/DobroDeskPush.xcframework.zip",
+      "bytes": 306104,
+      "sha256": "a1b757aad81e03a0ad6520f8fe8a62bdbd0bcd1b110b2fb19502c70fcfd46f69"
+    },
+    {
+      "role": "android-engine",
+      "kind": "android-jar",
+      "path": "native/dobrodesk-sdk.jar",
+      "bytes": 993275,
+      "sha256": "4b9009287107e59d5aed4225053454eca2af8472e2030a37ccb03518859af17c"
+    },
+    {
+      "role": "android-ui-controller",
+      "kind": "android-jar",
+      "path": "native/dobrodesk-ui-controller.jar",
+      "bytes": 179201,
+      "sha256": "cc5ea4a197dd473ea7a5f9a60e8140f320c162067035d2f2fe0452845d5b0f32"
+    },
+    {
+      "role": "android-ui",
+      "kind": "android-aar",
+      "path": "native/dobrodesk-ui.aar",
+      "bytes": 2900824,
+      "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+    },
+    {
+      "role": "android-nativescript",
+      "kind": "android-aar",
+      "path": "native/dobrodesk-nativescript.aar",
+      "bytes": 28511,
+      "sha256": "54c142480ed68c14917c239714feefcd3bd8136952f54d775991996dbcac63ef"
+    },
+    {
+      "role": "android-voice",
+      "kind": "android-aar",
+      "path": "native/dobrodesk-voice.aar",
+      "bytes": 93219,
+      "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
+    },
+    {
+      "role": "android-push",
+      "kind": "android-aar",
+      "path": "native/dobrodesk-push.aar",
+      "bytes": 26735,
+      "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
+    }
+  ],
+  "publication": "disabled",
+  "devicePerformance": "unmeasured",
+  "simulatorLaunch": "not-run",
+  "physicalDevice": "not-run"
+}

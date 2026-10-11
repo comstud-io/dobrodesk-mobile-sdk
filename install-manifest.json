@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "sdkVersion": "0.1.0",
+  "binaryRoot": "native",
+  "wrappers": [
+    {
+      "name": "@dobrodesk/mobile-protocol",
+      "source": "wrappers/packages/protocol",
+      "binaryRoles": [],
+      "dependencyMetadata": [],
+      "ios": [],
+      "android": [],
+      "spm": []
+    },
+    {
+      "name": "@dobrodesk/react-native-sdk",
+      "source": "wrappers/packages/react-native",
+      "binaryRoles": [
+        "ios-engine",
+        "ios-ui",
+        "android-engine",
+        "android-ui-controller",
+        "android-ui"
+      ],
+      "dependencyMetadata": [
+        {
+          "path": "native/dobrodesk-voice.aar",
+          "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
+        },
+        {
+          "path": "native/dobrodesk-push.aar",
+          "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.0/dobrodesk-sdk-0.1.0.jar",
+          "sha256": "4b9009287107e59d5aed4225053454eca2af8472e2030a37ccb03518859af17c"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.0/dobrodesk-sdk-0.1.0.pom",
+          "sha256": "ddb703fa61de439f81c3010084ff0fa1e4c17159b42eb2028be70f1b8677bbfa"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.0/dobrodesk-ui-controller-0.1.0.jar",
+          "sha256": "cc5ea4a197dd473ea7a5f9a60e8140f320c162067035d2f2fe0452845d5b0f32"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.0/dobrodesk-ui-controller-0.1.0.pom",
+          "sha256": "e71d24c2bcedc2e5c9bf6f9a9b63d3c63afba109c8dab1ef60647566c2959179"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.0/dobrodesk-ui-0.1.0.aar",
+          "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.0/dobrodesk-ui-0.1.0.pom",
+          "sha256": "0f3a3bfd9768170c61fa306051ab7f43e2a943f1b7cc0bf155310b5832176867"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.0/dobrodesk-voice-0.1.0.aar",
+          "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.0/dobrodesk-voice-0.1.0.pom",
+          "sha256": "614409b24d0fccf5978e8edc30be3905ea67d275e8c19c31b2665c197beaa530"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.0/dobrodesk-push-0.1.0.aar",
+          "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.0/dobrodesk-push-0.1.0.pom",
+          "sha256": "c2e14e2d0ce0df41e3b26ebfb70b46299219b33c04db157258948b34bbf27af1"
+        }
+      ],
+      "ios": [
+        {
+          "role": "ios-engine",
+          "path": "native/ios/DobroDeskSDK.xcframework"
+        },
+        {
+          "role": "ios-ui",
+          "path": "native/ios/DobroDeskUI.xcframework"
+        }
+      ],
+      "android": [
+        {
+          "role": "android-engine",
+          "path": "../native/dobrodesk-sdk.jar"
+        },
+        {
+          "role": "android-ui-controller",
+          "path": "../native/dobrodesk-ui-controller.jar"
+        },
+        {
+          "role": "android-ui",
+          "path": "../native/dobrodesk-ui.aar"
+        }
+      ],
+      "spm": [
+        {
+          "packagePath": "native/ios",
+          "products": [
+            "DobroDeskSDK",
+            "DobroDeskUI"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@dobrodesk/nativescript-sdk",
+      "source": "wrappers/packages/nativescript",
+      "binaryRoles": [
+        "ios-engine",
+        "ios-ui",
+        "android-engine",
+        "android-ui-controller",
+        "android-ui",
+        "android-nativescript"
+      ],
+      "dependencyMetadata": [
+        {
+          "path": "native/dobrodesk-voice.aar",
+          "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
+        },
+        {
+          "path": "native/dobrodesk-push.aar",
+          "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.0/dobrodesk-sdk-0.1.0.jar",
+          "sha256": "4b9009287107e59d5aed4225053454eca2af8472e2030a37ccb03518859af17c"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.0/dobrodesk-sdk-0.1.0.pom",
+          "sha256": "ddb703fa61de439f81c3010084ff0fa1e4c17159b42eb2028be70f1b8677bbfa"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.0/dobrodesk-ui-controller-0.1.0.jar",
+          "sha256": "cc5ea4a197dd473ea7a5f9a60e8140f320c162067035d2f2fe0452845d5b0f32"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.0/dobrodesk-ui-controller-0.1.0.pom",
+          "sha256": "e71d24c2bcedc2e5c9bf6f9a9b63d3c63afba109c8dab1ef60647566c2959179"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.0/dobrodesk-ui-0.1.0.aar",
+          "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.0/dobrodesk-ui-0.1.0.pom",
+          "sha256": "0f3a3bfd9768170c61fa306051ab7f43e2a943f1b7cc0bf155310b5832176867"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-nativescript/0.1.0/dobrodesk-nativescript-0.1.0.aar",
+          "sha256": "54c142480ed68c14917c239714feefcd3bd8136952f54d775991996dbcac63ef"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-nativescript/0.1.0/dobrodesk-nativescript-0.1.0.pom",
+          "sha256": "e1feb282603f1e766e54f7ad7c1bada895d430426b3cb36321b2627539aba21b"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.0/dobrodesk-voice-0.1.0.aar",
+          "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.0/dobrodesk-voice-0.1.0.pom",
+          "sha256": "614409b24d0fccf5978e8edc30be3905ea67d275e8c19c31b2665c197beaa530"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.0/dobrodesk-push-0.1.0.aar",
+          "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.0/dobrodesk-push-0.1.0.pom",
+          "sha256": "c2e14e2d0ce0df41e3b26ebfb70b46299219b33c04db157258948b34bbf27af1"
+        }
+      ],
+      "ios": [
+        {
+          "role": "ios-engine",
+          "path": "native/ios/DobroDeskSDK.xcframework"
+        },
+        {
+          "role": "ios-ui",
+          "path": "native/ios/DobroDeskUI.xcframework"
+        }
+      ],
+      "android": [
+        {
+          "role": "android-engine",
+          "path": "../native/dobrodesk-sdk.jar"
+        },
+        {
+          "role": "android-ui-controller",
+          "path": "../native/dobrodesk-ui-controller.jar"
+        },
+        {
+          "role": "android-ui",
+          "path": "../native/dobrodesk-ui.aar"
+        },
+        {
+          "role": "android-nativescript",
+          "path": "../native/dobrodesk-nativescript.aar"
+        }
+      ],
+      "spm": [
+        {
+          "packagePath": "native/ios",
+          "products": [
+            "DobroDeskSDK",
+            "DobroDeskUI"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@dobrodesk/capacitor-sdk",
+      "source": "wrappers/packages/capacitor",
+      "binaryRoles": [
+        "ios-engine",
+        "ios-ui",
+        "android-engine",
+        "android-ui-controller",
+        "android-ui"
+      ],
+      "dependencyMetadata": [
+        {
+          "path": "native/dobrodesk-voice.aar",
+          "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
+        },
+        {
+          "path": "native/dobrodesk-push.aar",
+          "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.0/dobrodesk-sdk-0.1.0.jar",
+          "sha256": "4b9009287107e59d5aed4225053454eca2af8472e2030a37ccb03518859af17c"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.0/dobrodesk-sdk-0.1.0.pom",
+          "sha256": "ddb703fa61de439f81c3010084ff0fa1e4c17159b42eb2028be70f1b8677bbfa"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.0/dobrodesk-ui-controller-0.1.0.jar",
+          "sha256": "cc5ea4a197dd473ea7a5f9a60e8140f320c162067035d2f2fe0452845d5b0f32"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.0/dobrodesk-ui-controller-0.1.0.pom",
+          "sha256": "e71d24c2bcedc2e5c9bf6f9a9b63d3c63afba109c8dab1ef60647566c2959179"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.0/dobrodesk-ui-0.1.0.aar",
+          "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.0/dobrodesk-ui-0.1.0.pom",
+          "sha256": "0f3a3bfd9768170c61fa306051ab7f43e2a943f1b7cc0bf155310b5832176867"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.0/dobrodesk-voice-0.1.0.aar",
+          "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.0/dobrodesk-voice-0.1.0.pom",
+          "sha256": "614409b24d0fccf5978e8edc30be3905ea67d275e8c19c31b2665c197beaa530"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.0/dobrodesk-push-0.1.0.aar",
+          "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.0/dobrodesk-push-0.1.0.pom",
+          "sha256": "c2e14e2d0ce0df41e3b26ebfb70b46299219b33c04db157258948b34bbf27af1"
+        }
+      ],
+      "ios": [
+        {
+          "role": "ios-engine",
+          "path": "../native/ios/DobroDeskSDK.xcframework"
+        },
+        {
+          "role": "ios-ui",
+          "path": "../native/ios/DobroDeskUI.xcframework"
+        }
+      ],
+      "android": [
+        {
+          "role": "android-engine",
+          "path": "../native/dobrodesk-sdk.jar"
+        },
+        {
+          "role": "android-ui-controller",
+          "path": "../native/dobrodesk-ui-controller.jar"
+        },
+        {
+          "role": "android-ui",
+          "path": "../native/dobrodesk-ui.aar"
+        }
+      ],
+      "spm": [
+        {
+          "packagePath": "../native/ios",
+          "products": [
+            "DobroDeskSDK",
+            "DobroDeskUI"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "dobrodesk_sdk",
+      "source": "wrappers/packages/flutter",
+      "binaryRoles": [
+        "ios-engine",
+        "ios-ui",
+        "android-engine",
+        "android-ui-controller",
+        "android-ui"
+      ],
+      "dependencyMetadata": [
+        {
+          "path": "native/dobrodesk-voice.aar",
+          "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
+        },
+        {
+          "path": "native/dobrodesk-push.aar",
+          "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.0/dobrodesk-sdk-0.1.0.jar",
+          "sha256": "4b9009287107e59d5aed4225053454eca2af8472e2030a37ccb03518859af17c"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.0/dobrodesk-sdk-0.1.0.pom",
+          "sha256": "ddb703fa61de439f81c3010084ff0fa1e4c17159b42eb2028be70f1b8677bbfa"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.0/dobrodesk-ui-controller-0.1.0.jar",
+          "sha256": "cc5ea4a197dd473ea7a5f9a60e8140f320c162067035d2f2fe0452845d5b0f32"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.0/dobrodesk-ui-controller-0.1.0.pom",
+          "sha256": "e71d24c2bcedc2e5c9bf6f9a9b63d3c63afba109c8dab1ef60647566c2959179"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.0/dobrodesk-ui-0.1.0.aar",
+          "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.0/dobrodesk-ui-0.1.0.pom",
+          "sha256": "0f3a3bfd9768170c61fa306051ab7f43e2a943f1b7cc0bf155310b5832176867"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.0/dobrodesk-voice-0.1.0.aar",
+          "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.0/dobrodesk-voice-0.1.0.pom",
+          "sha256": "614409b24d0fccf5978e8edc30be3905ea67d275e8c19c31b2665c197beaa530"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.0/dobrodesk-push-0.1.0.aar",
+          "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
+        },
+        {
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.0/dobrodesk-push-0.1.0.pom",
+          "sha256": "c2e14e2d0ce0df41e3b26ebfb70b46299219b33c04db157258948b34bbf27af1"
+        }
+      ],
+      "ios": [
+        {
+          "role": "ios-engine",
+          "path": "native/ios/DobroDeskSDK.xcframework"
+        },
+        {
+          "role": "ios-ui",
+          "path": "native/ios/DobroDeskUI.xcframework"
+        }
+      ],
+      "android": [
+        {
+          "role": "android-engine",
+          "path": "../native/dobrodesk-sdk.jar"
+        },
+        {
+          "role": "android-ui-controller",
+          "path": "../native/dobrodesk-ui-controller.jar"
+        },
+        {
+          "role": "android-ui",
+          "path": "../native/dobrodesk-ui.aar"
+        }
+      ],
+      "spm": [
+        {
+          "packagePath": "native/ios",
+          "products": [
+            "DobroDeskSDK",
+            "DobroDeskUI"
+          ]
+        }
+      ]
+    }
+  ],
+  "publication": "disabled"
+}
