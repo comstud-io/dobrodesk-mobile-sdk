@@ -30,6 +30,7 @@ jobs:
           ref: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
 
       - uses: subosito/flutter-action@v2
+        if: ${{ github.event_name == 'push' }}
         with:
           flutter-version: "3.44.2"
           cache: true
