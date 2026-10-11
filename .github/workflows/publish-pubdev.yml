@@ -3,13 +3,19 @@ name: Publish DobroDesk Flutter package
 on:
   push:
     tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Published release tag to verify"
+        required: true
+        type: string
 
 permissions:
   contents: read
   id-token: write
 
 concurrency:
-  group: dobrodesk-pubdev-${{ github.ref_name }}
+  group: dobrodesk-pubdev-${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
   cancel-in-progress: false
 
 jobs:
@@ -21,7 +27,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
 
       - uses: subosito/flutter-action@v2
         with:
@@ -30,6 +36,7 @@ jobs:
           pub-cache: true
 
       - uses: dart-lang/setup-dart@v1
+        if: ${{ github.event_name == 'push' }}
 
       - name: Verify and download the exact published bundle
         env:
@@ -37,12 +44,14 @@ jobs:
           EXPECTED_REPOSITORY: "comstud-io/dobrodesk-mobile-sdk"
           EXPECTED_REPOSITORY_URL: "https://github.com/comstud-io/dobrodesk-mobile-sdk"
           EXPECTED_PACKAGE: "dobrodesk_sdk"
+          RELEASE_TAG: ${{ github.event_name == 'workflow_dispatch' && inputs.tag || github.ref_name }}
+          PUBLISH_ALLOWED: ${{ github.event_name == 'push' }}
         shell: bash
         timeout-minutes: 12
         run: |
           set -euo pipefail
           test "$GITHUB_REPOSITORY" = "$EXPECTED_REPOSITORY"
-          tag="$GITHUB_REF_NAME"
+          tag="$RELEASE_TAG"
           [[ "$tag" =~ ^v[0-9]+\.[0-9]+\.[0-9]+([-.][0-9A-Za-z.-]+)?$ ]]
           version="${tag#v}"
           jq -e --arg version "$version" --arg tag "$tag" \
@@ -66,7 +75,7 @@ jobs:
           test "$actual_sha" = "$expected_sha"
           extract_root="$temporary_root/extracted"
           mkdir "$extract_root"
-          tar -xzf "$downloaded" -C "$extract_root"
+          tar --exclude='._*' --exclude='*/._*' -xzf "$downloaded" -C "$extract_root"
           flutter_root="$extract_root/wrappers/packages/flutter"
           test -f "$flutter_root/pubspec.yaml"
           test "$(awk -F': *' '$1 == "name" { print $2; exit }' "$flutter_root/pubspec.yaml")" = "$EXPECTED_PACKAGE"
@@ -85,6 +94,10 @@ jobs:
             exit $api_exit
           fi
           if [[ "$api_status" = "404" ]]; then
+            if [[ "$PUBLISH_ALLOWED" != "true" ]]; then
+              echo "Manual pub.dev dispatch is verification-only; package $EXPECTED_PACKAGE@$version is not published." >&2
+              exit 1
+            fi
             flutter pub publish --force
             exit 0
           fi
@@ -92,6 +105,10 @@ jobs:
           published_version_count="$(jq -er --arg version "$version" '[.versions[] | select(.version == $version)] | length' "$api_body")"
           case "$published_version_count" in
             0)
+              if [[ "$PUBLISH_ALLOWED" != "true" ]]; then
+                echo "Manual pub.dev dispatch is verification-only; package $EXPECTED_PACKAGE@$version is not published." >&2
+                exit 1
+              fi
               flutter pub publish --force
               exit 0
               ;;
@@ -146,14 +163,20 @@ jobs:
               exit 1
             fi
           done <"$archive_metadata"
-          tar -xzf "$existing_archive" -C "$remote_root"
+          tar --exclude='._*' --exclude='*/._*' -xzf "$existing_archive" -C "$remote_root"
           remote_manifest="$temporary_root/pubdev-remote.manifest"
           canonical_manifest() {
             local root="$1"
             local output="$2"
-            (cd "$root" && ! find . -type l -print -quit | grep -q . && find . -type f -print0 | sort -z | while IFS= read -r -d '' path; do sha256sum "$path"; done) >"$output"
+            (cd "$root" && export LC_ALL=C && ! find . -type l -print -quit | grep -q . && find . -type f ! -name '._*' -print0 | sort -z | while IFS= read -r -d '' path; do sha256sum "$path"; done) >"$output"
           }
           canonical_manifest "$flutter_root" "$local_manifest"
           canonical_manifest "$remote_root" "$remote_manifest"
-          cmp --silent "$local_manifest" "$remote_manifest"
+          if ! cmp --silent "$local_manifest" "$remote_manifest"; then
+            local_count="$(wc -l <"$local_manifest" | tr -d '[:space:]')"
+            remote_count="$(wc -l <"$remote_manifest" | tr -d '[:space:]')"
+            echo "pub.dev archive contents differ (local_files=$local_count remote_files=$remote_count)." >&2
+            diff -u "$local_manifest" "$remote_manifest" | sed -n '1,80p' >&2 || true
+            exit 1
+          fi
           exit 0
