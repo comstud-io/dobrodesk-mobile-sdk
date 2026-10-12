@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'DobroDeskUI'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.summary = 'DobroDesk DobroDeskUI binary SDK'
   s.homepage = 'https://dobrodesk.com'
   s.author = { 'DobroDesk' => 'sdk@dobrodesk.com' }
@@ -56,8 +56,8 @@ including warranties of merchantability, fitness for a particular purpose or
 non-infringement. Nothing in this license excludes rights or liabilities that
 applicable law does not permit to be excluded.
 ' }
-  s.source = { :http => 'https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.1.0/DobroDeskUI.xcframework.zip', :sha256 => '9e06eae5570e867394906d2bcb2fc7a960496ef531cbcb831762becd7e523e55' }
+  s.source = { :http => 'https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.1.1/DobroDeskUI.xcframework.zip', :sha256 => '4421c934ba84728127f593de6f763aa960474b79053d174508a7d416b51439fa' }
   s.vendored_frameworks = 'DobroDeskUI.xcframework'
   s.platform = :ios, '15.1'
-  s.dependency 'DobroDeskSDK', '= 0.1.0'
+  s.dependency 'DobroDeskSDK', '= 0.1.1'
 end

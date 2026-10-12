@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "publication": "prepared",
   "sourcePolicy": "artifact-only-public-stage",
-  "sdkVersion": "0.1.0",
+  "sdkVersion": "0.1.1",
   "owner": "comstud-io",
   "repository": "comstud-io/dobrodesk-mobile-sdk",
-  "tag": "v0.1.0",
-  "releaseUrl": "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/tag/v0.1.0",
-  "assetBaseUrl": "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.1.0",
+  "tag": "v0.1.1",
+  "releaseUrl": "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/tag/v0.1.1",
+  "assetBaseUrl": "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.1.1",
   "indexFiles": [
     ".github/workflows/publish-npm.yml",
     ".github/workflows/publish-pubdev.yml",
@@ -27,21 +27,21 @@
     "release-notes.md"
   ],
   "indexSha256": {
-    ".github/workflows/publish-npm.yml": "99a71e8af7ae5a45e3091436eaf59264adad6269769cd60e3b636bd763d01213",
-    ".github/workflows/publish-pubdev.yml": "84b572b54a04995c26b15a2839d8e285d0001c78cf833344dc793dab86866994",
-    "CHANGELOG.md": "6862819923123c36fb1de67a6705b6030c2c91ca12d34da335cd8e0e3d9c587c",
-    "DobroDeskPush.podspec": "1e8459b491853905876fe93255382bc60f780c2153eb804ad13ab7849baceb26",
-    "DobroDeskSDK.podspec": "d2c06707eabd97e39f7790677b239208fc9831727e4f44899f5d5dea17b50a0c",
-    "DobroDeskUI.podspec": "774c2fc229c3593f1642bd53dd70772800dfa93e7c3d1608a4586083ea5d27bb",
-    "DobroDeskVoice.podspec": "dc6043346cd536acaf9b46694631191fc610568b94033d2d831b3cb9df08209a",
+    ".github/workflows/publish-npm.yml": "4c0abf85e2db791be26499b7db1a793e89fa3a4bce493faece66e3f2730a2ed5",
+    ".github/workflows/publish-pubdev.yml": "a004f495578c7f5c04c26ab4a76f516af1a16dab0be262adb2e2d5ea48bfc687",
+    "CHANGELOG.md": "64fc93400e0ce581b7026177c0bdd14299d50576a34945834ab2c41a92de9b00",
+    "DobroDeskPush.podspec": "dfd5ed25a2baeba35cf80cc4c7a3d48c658e27ecc9eacceb539789ba0243ecd2",
+    "DobroDeskSDK.podspec": "e70c5a918298502d2553f32d775485927ac79be9979c08af89ed9904388787a8",
+    "DobroDeskUI.podspec": "c316994e89875c1a587c216f3db678dadc6c052591b840db959795c59b177f40",
+    "DobroDeskVoice.podspec": "a5d673cde242970b766d0f1bea9e12432b389332cf86edebdfd51a17fd588673",
     "LICENSE": "7e1955778d67f5e03d714ffaeb056460b5c400feec5b596c352bf79f85ca5588",
-    "Package.swift": "d70399c542baf55a59f26dffd55eba73b7c4aaeb82a3c6603f691b9ab4171039",
-    "README.md": "4fa269443190943fa7b4b3a52f95bb012f656eb16bb74793991fe92e5b212c34",
-    "checksums.sha256": "5665c5d02d6088202ae57517ba248ec706cc176ed9a18324a5e5c17ea7818e07",
-    "install-manifest.json": "975aa4ba430e1675347806238c8c99a54f6f8fc2487381dc2af0d7b3c3a43661",
-    "manifest.json": "84b60ea0d5011437a1bdb9eb92f53a49901cf1638c4405bc7bfbf8ea374e6955",
-    "release-manifest.json": "1882de9c5b13273fd78c5406f7bd1400b8e5aef4bc234370ea1ec659bef724b9",
-    "release-notes.md": "4384b29ed0f8b6cdfdd10ed76d3ccf770e4d88a08ab04dac9a11aec962e9ff1c"
+    "Package.swift": "ae801f3d16c1431f37d058693d060f2da2c83b77e267cd4bca88047e079bd846",
+    "README.md": "dc41eefbc70a446baeeebecb66b3eb70f6b26629ae466787d1163f378634b4ca",
+    "checksums.sha256": "30c51f3c8ff6cff731e12d56aab7785a940aac0c8cb9eafa1442d99ed3a0530a",
+    "install-manifest.json": "17dffe68109787cea881b167896ea4bedbefc6b436c9e064ec9efc8164fd7ecf",
+    "manifest.json": "95223f660a37edf3aa5bbf109097ff86bd664d0364180d2eaf4b0297a1ea0732",
+    "release-manifest.json": "da1e3c3b8d760e3f570a777d7530b61f47eb5684d128b5bdc45505f2a3a3ba26",
+    "release-notes.md": "2e475ecb1609358ce9e22695438b4b29c0149920540b4b8a3e773079590cbba4"
   },
   "nativeArtifacts": [
     {
@@ -49,42 +49,42 @@
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskSDK.xcframework.zip",
       "bytes": 3402097,
-      "sha256": "6a94b27bb02369abf69152ae60b3280068f08748b86d7c79006e71fa4fd15c45"
+      "sha256": "acb7dd8518d0a71c4fc2bb9a0ad60d085c84f459116368193b42bec66aeef800"
     },
     {
       "role": "ios-ui",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskUI.xcframework.zip",
-      "bytes": 8072861,
-      "sha256": "9e06eae5570e867394906d2bcb2fc7a960496ef531cbcb831762becd7e523e55"
+      "bytes": 8072862,
+      "sha256": "4421c934ba84728127f593de6f763aa960474b79053d174508a7d416b51439fa"
     },
     {
       "role": "ios-voice",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskVoice.xcframework.zip",
-      "bytes": 514615,
-      "sha256": "c387cb9f2c1d4d894990983127660ffbb39de39c5f480f8164cf1424c5a52342"
+      "bytes": 514617,
+      "sha256": "425ceb5ea7d1268f1ae0a6210751d35704f009b16c6703df97cc39edc079d4c7"
     },
     {
       "role": "ios-push",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskPush.xcframework.zip",
       "bytes": 306104,
-      "sha256": "a1b757aad81e03a0ad6520f8fe8a62bdbd0bcd1b110b2fb19502c70fcfd46f69"
+      "sha256": "771c8c7a5805dca78c4bd79802e66da48587925de28da840874c470e110a2b7f"
     },
     {
       "role": "android-engine",
       "kind": "android-jar",
       "path": "native/dobrodesk-sdk.jar",
-      "bytes": 993275,
-      "sha256": "4b9009287107e59d5aed4225053454eca2af8472e2030a37ccb03518859af17c"
+      "bytes": 993265,
+      "sha256": "56b88d6b2d5bc73d8e9cb863ec59898da167576d69bbe55d2fa3619764b14a16"
     },
     {
       "role": "android-ui-controller",
       "kind": "android-jar",
       "path": "native/dobrodesk-ui-controller.jar",
       "bytes": 179201,
-      "sha256": "cc5ea4a197dd473ea7a5f9a60e8140f320c162067035d2f2fe0452845d5b0f32"
+      "sha256": "736afa82c2ac8100bc13f5f678a0e51f37a4a0c6440937f45b2a45c89a8a5a93"
     },
     {
       "role": "android-ui",
@@ -121,23 +121,23 @@
       "kind": "native",
       "path": "assets/DobroDeskSDK.xcframework.zip",
       "bytes": 3402097,
-      "sha256": "6a94b27bb02369abf69152ae60b3280068f08748b86d7c79006e71fa4fd15c45",
+      "sha256": "acb7dd8518d0a71c4fc2bb9a0ad60d085c84f459116368193b42bec66aeef800",
       "role": "ios-engine"
     },
     {
       "name": "DobroDeskUI.xcframework.zip",
       "kind": "native",
       "path": "assets/DobroDeskUI.xcframework.zip",
-      "bytes": 8072861,
-      "sha256": "9e06eae5570e867394906d2bcb2fc7a960496ef531cbcb831762becd7e523e55",
+      "bytes": 8072862,
+      "sha256": "4421c934ba84728127f593de6f763aa960474b79053d174508a7d416b51439fa",
       "role": "ios-ui"
     },
     {
       "name": "DobroDeskVoice.xcframework.zip",
       "kind": "native",
       "path": "assets/DobroDeskVoice.xcframework.zip",
-      "bytes": 514615,
-      "sha256": "c387cb9f2c1d4d894990983127660ffbb39de39c5f480f8164cf1424c5a52342",
+      "bytes": 514617,
+      "sha256": "425ceb5ea7d1268f1ae0a6210751d35704f009b16c6703df97cc39edc079d4c7",
       "role": "ios-voice"
     },
     {
@@ -145,15 +145,15 @@
       "kind": "native",
       "path": "assets/DobroDeskPush.xcframework.zip",
       "bytes": 306104,
-      "sha256": "a1b757aad81e03a0ad6520f8fe8a62bdbd0bcd1b110b2fb19502c70fcfd46f69",
+      "sha256": "771c8c7a5805dca78c4bd79802e66da48587925de28da840874c470e110a2b7f",
       "role": "ios-push"
     },
     {
       "name": "dobrodesk-sdk.jar",
       "kind": "native",
       "path": "assets/dobrodesk-sdk.jar",
-      "bytes": 993275,
-      "sha256": "4b9009287107e59d5aed4225053454eca2af8472e2030a37ccb03518859af17c",
+      "bytes": 993265,
+      "sha256": "56b88d6b2d5bc73d8e9cb863ec59898da167576d69bbe55d2fa3619764b14a16",
       "role": "android-engine"
     },
     {
@@ -161,7 +161,7 @@
       "kind": "native",
       "path": "assets/dobrodesk-ui-controller.jar",
       "bytes": 179201,
-      "sha256": "cc5ea4a197dd473ea7a5f9a60e8140f320c162067035d2f2fe0452845d5b0f32",
+      "sha256": "736afa82c2ac8100bc13f5f678a0e51f37a4a0c6440937f45b2a45c89a8a5a93",
       "role": "android-ui-controller"
     },
     {
@@ -197,39 +197,39 @@
       "role": "android-push"
     },
     {
-      "name": "npm-dobrodesk-mobile-protocol-0.1.0.tgz",
+      "name": "npm-dobrodesk-nativescript-sdk-0.1.1.tgz",
       "kind": "npm",
-      "path": "assets/npm-dobrodesk-mobile-protocol-0.1.0.tgz",
-      "bytes": 29786,
-      "sha256": "70074ef35dc48574f7af100850f33f2028f1f843a95b972af40abdc0b7913dc6"
+      "path": "assets/npm-dobrodesk-nativescript-sdk-0.1.1.tgz",
+      "bytes": 31089820,
+      "sha256": "1bab7ed914029acbbf3c1e647c1becfa45e4eaa3eee51b8956ce9ed52cf2be4d"
     },
     {
-      "name": "npm-dobrodesk-nativescript-sdk-0.1.0.tgz",
+      "name": "npm-dobrodesk-capacitor-sdk-0.1.1.tgz",
       "kind": "npm",
-      "path": "assets/npm-dobrodesk-nativescript-sdk-0.1.0.tgz",
-      "bytes": 31090279,
-      "sha256": "8a0a3282f8d0533044d809fb1b4e3048f0e89e1ecd95d4f1d480fd584231a708"
+      "path": "assets/npm-dobrodesk-capacitor-sdk-0.1.1.tgz",
+      "bytes": 31029055,
+      "sha256": "5d83f17d18ed4ccaece3551e7b36b4d4c3ad85247db1186d986324685fd6bbf6"
     },
     {
-      "name": "npm-dobrodesk-capacitor-sdk-0.1.0.tgz",
+      "name": "npm-dobrodesk-mobile-protocol-0.1.1.tgz",
       "kind": "npm",
-      "path": "assets/npm-dobrodesk-capacitor-sdk-0.1.0.tgz",
-      "bytes": 31029442,
-      "sha256": "adfde73938174c3a21954de1350972bab17d59d70c5ec80c98b6817dd925a619"
+      "path": "assets/npm-dobrodesk-mobile-protocol-0.1.1.tgz",
+      "bytes": 29952,
+      "sha256": "35ff62c3027a4a44ed64656b5becd6ba261d43793866188bfa4654bf0dbe0155"
     },
     {
-      "name": "npm-dobrodesk-react-native-sdk-0.1.0.tgz",
+      "name": "npm-dobrodesk-react-native-sdk-0.1.1.tgz",
       "kind": "npm",
-      "path": "assets/npm-dobrodesk-react-native-sdk-0.1.0.tgz",
-      "bytes": 31032106,
-      "sha256": "6f38caf734602fb34b5806ca4ad0487aef00adfd8f29fdefaaaf5fa3fce1cfba"
+      "path": "assets/npm-dobrodesk-react-native-sdk-0.1.1.tgz",
+      "bytes": 31031497,
+      "sha256": "8c5a0a23a89d3ef03594f34c4815c3720f7b6f600837eb74dca0ff512013166b"
     },
     {
-      "name": "dobrodesk-mobile-sdk-0.1.0-bundle.tar.gz",
+      "name": "dobrodesk-mobile-sdk-0.1.1-bundle.tar.gz",
       "kind": "bundle",
-      "path": "assets/dobrodesk-mobile-sdk-0.1.0-bundle.tar.gz",
-      "bytes": 246448513,
-      "sha256": "e4b37d2002f3a7fe75e7740446e6f0ce14f0ce2f1b382b870ca40ce1caf8cc76"
+      "path": "assets/dobrodesk-mobile-sdk-0.1.1-bundle.tar.gz",
+      "bytes": 246272224,
+      "sha256": "88f601ee2a547725908af3fe0f042d91e04b03a800eed5fa8badf59910a1759c"
     }
   ]
 }
