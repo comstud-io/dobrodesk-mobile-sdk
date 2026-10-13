@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sdkVersion": "0.1.1",
+  "sdkVersion": "0.2.0",
   "binaryRoot": "native",
   "wrappers": [
     {
@@ -32,44 +32,44 @@
           "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.jar",
-          "sha256": "56b88d6b2d5bc73d8e9cb863ec59898da167576d69bbe55d2fa3619764b14a16"
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.jar",
+          "sha256": "314fe4c9d8ddb2b7638cf45d5fec6906758199a77b5a22600b40bd7217b779cc"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.pom",
-          "sha256": "1a2cbba8e5eb53492fe8d1d364eeaecbd3f1f92619098dfa77bf0a5d599ce439"
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.pom",
+          "sha256": "9e4117372398b12135cb8320d8fba1fe54ac77bccf7fff4d9ec4a96548b80601"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.jar",
-          "sha256": "736afa82c2ac8100bc13f5f678a0e51f37a4a0c6440937f45b2a45c89a8a5a93"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.jar",
+          "sha256": "a06544fb83b807af1ea2ebb844bd6d411de7c999de26e10391202b090a07b915"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.pom",
-          "sha256": "60c24f5303c3be28c16a0aabf5b7cf1b33b0b7ff94d1e3829c3410163d376b17"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.pom",
+          "sha256": "6f7075232b3d31742bdf34c0e53b8fca2d1e544246aaa1ff0dc268f842b90e93"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.aar",
-          "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.aar",
+          "sha256": "b9a59c99c4eeeb18869cecc24eccdba236da8d34a846fbc86449e9d988c6bee1"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.pom",
-          "sha256": "fedbd87852cf0b6fc038f5eded38a1f87ce3e06082a9d44171cf728bc095904b"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.pom",
+          "sha256": "6ea2eec668976fb4665de080d6ccf3460356140636c8c6272626a8e3b8d2ee96"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.aar",
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.aar",
           "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.pom",
-          "sha256": "39d23964a57e50a1b9504e811aefe764c527159ca07077d779a7434e1fe1d09d"
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.pom",
+          "sha256": "bed6b20be39ff89433d5a67bd771aa59fc71d1e973d84bbca67ba77e00801521"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.aar",
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.aar",
           "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.pom",
-          "sha256": "c40d8ee28f81305b77a1f5a555e4a0401969d542945c5e328af7c9264d8517af"
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.pom",
+          "sha256": "8375baad4a10f99906696b632feae5abcaa7c898c9a6cb5aab6e44093cb6888f"
         }
       ],
       "ios": [
@@ -127,52 +127,52 @@
           "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.jar",
-          "sha256": "56b88d6b2d5bc73d8e9cb863ec59898da167576d69bbe55d2fa3619764b14a16"
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.jar",
+          "sha256": "314fe4c9d8ddb2b7638cf45d5fec6906758199a77b5a22600b40bd7217b779cc"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.pom",
-          "sha256": "1a2cbba8e5eb53492fe8d1d364eeaecbd3f1f92619098dfa77bf0a5d599ce439"
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.pom",
+          "sha256": "9e4117372398b12135cb8320d8fba1fe54ac77bccf7fff4d9ec4a96548b80601"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.jar",
-          "sha256": "736afa82c2ac8100bc13f5f678a0e51f37a4a0c6440937f45b2a45c89a8a5a93"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.jar",
+          "sha256": "a06544fb83b807af1ea2ebb844bd6d411de7c999de26e10391202b090a07b915"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.pom",
-          "sha256": "60c24f5303c3be28c16a0aabf5b7cf1b33b0b7ff94d1e3829c3410163d376b17"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.pom",
+          "sha256": "6f7075232b3d31742bdf34c0e53b8fca2d1e544246aaa1ff0dc268f842b90e93"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.aar",
-          "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.aar",
+          "sha256": "b9a59c99c4eeeb18869cecc24eccdba236da8d34a846fbc86449e9d988c6bee1"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.pom",
-          "sha256": "fedbd87852cf0b6fc038f5eded38a1f87ce3e06082a9d44171cf728bc095904b"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.pom",
+          "sha256": "6ea2eec668976fb4665de080d6ccf3460356140636c8c6272626a8e3b8d2ee96"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-nativescript/0.1.1/dobrodesk-nativescript-0.1.1.aar",
-          "sha256": "54c142480ed68c14917c239714feefcd3bd8136952f54d775991996dbcac63ef"
+          "path": "native/maven/com/dobrodesk/dobrodesk-nativescript/0.2.0/dobrodesk-nativescript-0.2.0.aar",
+          "sha256": "13a6ef4332f78e768ca48d6a2584afdf39742599b5422c9ac6c60ad87a14cdea"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-nativescript/0.1.1/dobrodesk-nativescript-0.1.1.pom",
-          "sha256": "21a689850aba0e04c53a15eee6ed336c190401694bcbafc1844b97c91dd85c55"
+          "path": "native/maven/com/dobrodesk/dobrodesk-nativescript/0.2.0/dobrodesk-nativescript-0.2.0.pom",
+          "sha256": "a3bf76e151a223130532b3c2b161f54080222428c8e280b9c6262ddedab0a6d5"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.aar",
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.aar",
           "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.pom",
-          "sha256": "39d23964a57e50a1b9504e811aefe764c527159ca07077d779a7434e1fe1d09d"
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.pom",
+          "sha256": "bed6b20be39ff89433d5a67bd771aa59fc71d1e973d84bbca67ba77e00801521"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.aar",
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.aar",
           "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.pom",
-          "sha256": "c40d8ee28f81305b77a1f5a555e4a0401969d542945c5e328af7c9264d8517af"
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.pom",
+          "sha256": "8375baad4a10f99906696b632feae5abcaa7c898c9a6cb5aab6e44093cb6888f"
         }
       ],
       "ios": [
@@ -233,44 +233,44 @@
           "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.jar",
-          "sha256": "56b88d6b2d5bc73d8e9cb863ec59898da167576d69bbe55d2fa3619764b14a16"
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.jar",
+          "sha256": "314fe4c9d8ddb2b7638cf45d5fec6906758199a77b5a22600b40bd7217b779cc"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.pom",
-          "sha256": "1a2cbba8e5eb53492fe8d1d364eeaecbd3f1f92619098dfa77bf0a5d599ce439"
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.pom",
+          "sha256": "9e4117372398b12135cb8320d8fba1fe54ac77bccf7fff4d9ec4a96548b80601"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.jar",
-          "sha256": "736afa82c2ac8100bc13f5f678a0e51f37a4a0c6440937f45b2a45c89a8a5a93"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.jar",
+          "sha256": "a06544fb83b807af1ea2ebb844bd6d411de7c999de26e10391202b090a07b915"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.pom",
-          "sha256": "60c24f5303c3be28c16a0aabf5b7cf1b33b0b7ff94d1e3829c3410163d376b17"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.pom",
+          "sha256": "6f7075232b3d31742bdf34c0e53b8fca2d1e544246aaa1ff0dc268f842b90e93"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.aar",
-          "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.aar",
+          "sha256": "b9a59c99c4eeeb18869cecc24eccdba236da8d34a846fbc86449e9d988c6bee1"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.pom",
-          "sha256": "fedbd87852cf0b6fc038f5eded38a1f87ce3e06082a9d44171cf728bc095904b"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.pom",
+          "sha256": "6ea2eec668976fb4665de080d6ccf3460356140636c8c6272626a8e3b8d2ee96"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.aar",
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.aar",
           "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.pom",
-          "sha256": "39d23964a57e50a1b9504e811aefe764c527159ca07077d779a7434e1fe1d09d"
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.pom",
+          "sha256": "bed6b20be39ff89433d5a67bd771aa59fc71d1e973d84bbca67ba77e00801521"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.aar",
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.aar",
           "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.pom",
-          "sha256": "c40d8ee28f81305b77a1f5a555e4a0401969d542945c5e328af7c9264d8517af"
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.pom",
+          "sha256": "8375baad4a10f99906696b632feae5abcaa7c898c9a6cb5aab6e44093cb6888f"
         }
       ],
       "ios": [
@@ -327,44 +327,44 @@
           "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.jar",
-          "sha256": "56b88d6b2d5bc73d8e9cb863ec59898da167576d69bbe55d2fa3619764b14a16"
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.jar",
+          "sha256": "314fe4c9d8ddb2b7638cf45d5fec6906758199a77b5a22600b40bd7217b779cc"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.pom",
-          "sha256": "1a2cbba8e5eb53492fe8d1d364eeaecbd3f1f92619098dfa77bf0a5d599ce439"
+          "path": "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.pom",
+          "sha256": "9e4117372398b12135cb8320d8fba1fe54ac77bccf7fff4d9ec4a96548b80601"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.jar",
-          "sha256": "736afa82c2ac8100bc13f5f678a0e51f37a4a0c6440937f45b2a45c89a8a5a93"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.jar",
+          "sha256": "a06544fb83b807af1ea2ebb844bd6d411de7c999de26e10391202b090a07b915"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.pom",
-          "sha256": "60c24f5303c3be28c16a0aabf5b7cf1b33b0b7ff94d1e3829c3410163d376b17"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.pom",
+          "sha256": "6f7075232b3d31742bdf34c0e53b8fca2d1e544246aaa1ff0dc268f842b90e93"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.aar",
-          "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.aar",
+          "sha256": "b9a59c99c4eeeb18869cecc24eccdba236da8d34a846fbc86449e9d988c6bee1"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.pom",
-          "sha256": "fedbd87852cf0b6fc038f5eded38a1f87ce3e06082a9d44171cf728bc095904b"
+          "path": "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.pom",
+          "sha256": "6ea2eec668976fb4665de080d6ccf3460356140636c8c6272626a8e3b8d2ee96"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.aar",
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.aar",
           "sha256": "f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.pom",
-          "sha256": "39d23964a57e50a1b9504e811aefe764c527159ca07077d779a7434e1fe1d09d"
+          "path": "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.pom",
+          "sha256": "bed6b20be39ff89433d5a67bd771aa59fc71d1e973d84bbca67ba77e00801521"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.aar",
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.aar",
           "sha256": "d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9"
         },
         {
-          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.pom",
-          "sha256": "c40d8ee28f81305b77a1f5a555e4a0401969d542945c5e328af7c9264d8517af"
+          "path": "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.pom",
+          "sha256": "8375baad4a10f99906696b632feae5abcaa7c898c9a6cb5aab6e44093cb6888f"
         }
       ],
       "ios": [

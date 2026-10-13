@@ -1,5 +1,5 @@
 // swift-tools-version: 6.0
-// DobroDesk Mobile SDK 0.1.1 binary release. Native source is excluded.
+// DobroDesk Mobile SDK 0.2.0 binary release. Native source is excluded.
 import PackageDescription
 
 let package = Package(
@@ -12,9 +12,9 @@ let package = Package(
         .library(name: "DobroDeskPush", targets: ["DobroDeskSDK", "DobroDeskPush"]),
     ],
     targets: [
-        .binaryTarget(name: "DobroDeskSDK", url: "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.1.1/DobroDeskSDK.xcframework.zip", checksum: "acb7dd8518d0a71c4fc2bb9a0ad60d085c84f459116368193b42bec66aeef800"), // ios-engine
-        .binaryTarget(name: "DobroDeskUI", url: "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.1.1/DobroDeskUI.xcframework.zip", checksum: "4421c934ba84728127f593de6f763aa960474b79053d174508a7d416b51439fa"), // ios-ui
-        .binaryTarget(name: "DobroDeskVoice", url: "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.1.1/DobroDeskVoice.xcframework.zip", checksum: "425ceb5ea7d1268f1ae0a6210751d35704f009b16c6703df97cc39edc079d4c7"), // ios-voice
-        .binaryTarget(name: "DobroDeskPush", url: "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.1.1/DobroDeskPush.xcframework.zip", checksum: "771c8c7a5805dca78c4bd79802e66da48587925de28da840874c470e110a2b7f"), // ios-push
+        .binaryTarget(name: "DobroDeskSDK", url: "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.2.0/DobroDeskSDK.xcframework.zip", checksum: "9dfa3e660afaf116e84da387bb61415132b754f82585bb2366d140d68e1e63ee"), // ios-engine
+        .binaryTarget(name: "DobroDeskUI", url: "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.2.0/DobroDeskUI.xcframework.zip", checksum: "db2c714786eee1289864804ef3aad0d26cf85957277e6a261348c1f4af9c1afe"), // ios-ui
+        .binaryTarget(name: "DobroDeskVoice", url: "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.2.0/DobroDeskVoice.xcframework.zip", checksum: "2557ff1d1a21bd5ad37e89cef520f9afd73a849f82c59e5f8198c59dcb30cc9d"), // ios-voice
+        .binaryTarget(name: "DobroDeskPush", url: "https://github.com/comstud-io/dobrodesk-mobile-sdk/releases/download/v0.2.0/DobroDeskPush.xcframework.zip", checksum: "bc00c9aff1ae14bbe2fe65a58173f60497a65466f829d09dc5977c43ab1962fd"), // ios-push
     ]
 )

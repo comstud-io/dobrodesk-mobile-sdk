@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sdkVersion": "0.1.1",
+  "sdkVersion": "0.2.0",
   "wireProtocol": "native-v1",
   "appearanceSchemaVersion": 2,
   "minimum": {
@@ -93,57 +93,57 @@
       "role": "ios-engine",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskSDK.xcframework.zip",
-      "bytes": 3402097,
-      "sha256": "acb7dd8518d0a71c4fc2bb9a0ad60d085c84f459116368193b42bec66aeef800"
+      "bytes": 3402101,
+      "sha256": "9dfa3e660afaf116e84da387bb61415132b754f82585bb2366d140d68e1e63ee"
     },
     {
       "role": "ios-ui",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskUI.xcframework.zip",
-      "bytes": 8072862,
-      "sha256": "4421c934ba84728127f593de6f763aa960474b79053d174508a7d416b51439fa"
+      "bytes": 8098044,
+      "sha256": "db2c714786eee1289864804ef3aad0d26cf85957277e6a261348c1f4af9c1afe"
     },
     {
       "role": "ios-voice",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskVoice.xcframework.zip",
-      "bytes": 514617,
-      "sha256": "425ceb5ea7d1268f1ae0a6210751d35704f009b16c6703df97cc39edc079d4c7"
+      "bytes": 514615,
+      "sha256": "2557ff1d1a21bd5ad37e89cef520f9afd73a849f82c59e5f8198c59dcb30cc9d"
     },
     {
       "role": "ios-push",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskPush.xcframework.zip",
-      "bytes": 306104,
-      "sha256": "771c8c7a5805dca78c4bd79802e66da48587925de28da840874c470e110a2b7f"
+      "bytes": 306109,
+      "sha256": "bc00c9aff1ae14bbe2fe65a58173f60497a65466f829d09dc5977c43ab1962fd"
     },
     {
       "role": "android-engine",
       "kind": "android-jar",
       "path": "native/dobrodesk-sdk.jar",
       "bytes": 993265,
-      "sha256": "56b88d6b2d5bc73d8e9cb863ec59898da167576d69bbe55d2fa3619764b14a16"
+      "sha256": "314fe4c9d8ddb2b7638cf45d5fec6906758199a77b5a22600b40bd7217b779cc"
     },
     {
       "role": "android-ui-controller",
       "kind": "android-jar",
       "path": "native/dobrodesk-ui-controller.jar",
       "bytes": 179201,
-      "sha256": "736afa82c2ac8100bc13f5f678a0e51f37a4a0c6440937f45b2a45c89a8a5a93"
+      "sha256": "a06544fb83b807af1ea2ebb844bd6d411de7c999de26e10391202b090a07b915"
     },
     {
       "role": "android-ui",
       "kind": "android-aar",
       "path": "native/dobrodesk-ui.aar",
-      "bytes": 2900824,
-      "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+      "bytes": 2911461,
+      "sha256": "b9a59c99c4eeeb18869cecc24eccdba236da8d34a846fbc86449e9d988c6bee1"
     },
     {
       "role": "android-nativescript",
       "kind": "android-aar",
       "path": "native/dobrodesk-nativescript.aar",
-      "bytes": 28511,
-      "sha256": "54c142480ed68c14917c239714feefcd3bd8136952f54d775991996dbcac63ef"
+      "bytes": 49058,
+      "sha256": "13a6ef4332f78e768ca48d6a2584afdf39742599b5422c9ac6c60ad87a14cdea"
     },
     {
       "role": "android-voice",

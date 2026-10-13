@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sdkVersion": "0.1.1",
+  "sdkVersion": "0.2.0",
   "flutterVersion": "3.44.2",
   "publication": "prepared",
   "sourcePolicy": "artifact-only-public-stage",
@@ -12,64 +12,64 @@
     "wrappers/packages/flutter"
   ],
   "notesFile": "release-notes.md",
-  "notesSha256": "2e475ecb1609358ce9e22695438b4b29c0149920540b4b8a3e773079590cbba4",
+  "notesSha256": "04282293433cea5acb7189aa459ee092e918f5145008baa18fa865cef5c6c0c2",
   "publishTargetsConfigured": true,
   "nativeArtifacts": [
     {
       "role": "ios-engine",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskSDK.xcframework.zip",
-      "bytes": 3402097,
-      "sha256": "acb7dd8518d0a71c4fc2bb9a0ad60d085c84f459116368193b42bec66aeef800"
+      "bytes": 3402101,
+      "sha256": "9dfa3e660afaf116e84da387bb61415132b754f82585bb2366d140d68e1e63ee"
     },
     {
       "role": "ios-ui",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskUI.xcframework.zip",
-      "bytes": 8072862,
-      "sha256": "4421c934ba84728127f593de6f763aa960474b79053d174508a7d416b51439fa"
+      "bytes": 8098044,
+      "sha256": "db2c714786eee1289864804ef3aad0d26cf85957277e6a261348c1f4af9c1afe"
     },
     {
       "role": "ios-voice",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskVoice.xcframework.zip",
-      "bytes": 514617,
-      "sha256": "425ceb5ea7d1268f1ae0a6210751d35704f009b16c6703df97cc39edc079d4c7"
+      "bytes": 514615,
+      "sha256": "2557ff1d1a21bd5ad37e89cef520f9afd73a849f82c59e5f8198c59dcb30cc9d"
     },
     {
       "role": "ios-push",
       "kind": "ios-xcframework-zip",
       "path": "native/DobroDeskPush.xcframework.zip",
-      "bytes": 306104,
-      "sha256": "771c8c7a5805dca78c4bd79802e66da48587925de28da840874c470e110a2b7f"
+      "bytes": 306109,
+      "sha256": "bc00c9aff1ae14bbe2fe65a58173f60497a65466f829d09dc5977c43ab1962fd"
     },
     {
       "role": "android-engine",
       "kind": "android-jar",
       "path": "native/dobrodesk-sdk.jar",
       "bytes": 993265,
-      "sha256": "56b88d6b2d5bc73d8e9cb863ec59898da167576d69bbe55d2fa3619764b14a16"
+      "sha256": "314fe4c9d8ddb2b7638cf45d5fec6906758199a77b5a22600b40bd7217b779cc"
     },
     {
       "role": "android-ui-controller",
       "kind": "android-jar",
       "path": "native/dobrodesk-ui-controller.jar",
       "bytes": 179201,
-      "sha256": "736afa82c2ac8100bc13f5f678a0e51f37a4a0c6440937f45b2a45c89a8a5a93"
+      "sha256": "a06544fb83b807af1ea2ebb844bd6d411de7c999de26e10391202b090a07b915"
     },
     {
       "role": "android-ui",
       "kind": "android-aar",
       "path": "native/dobrodesk-ui.aar",
-      "bytes": 2900824,
-      "sha256": "e96546bfa97734550e462477cde7b0b510997c7f2c38eb678143d263210bcb86"
+      "bytes": 2911461,
+      "sha256": "b9a59c99c4eeeb18869cecc24eccdba236da8d34a846fbc86449e9d988c6bee1"
     },
     {
       "role": "android-nativescript",
       "kind": "android-aar",
       "path": "native/dobrodesk-nativescript.aar",
-      "bytes": 28511,
-      "sha256": "54c142480ed68c14917c239714feefcd3bd8136952f54d775991996dbcac63ef"
+      "bytes": 49058,
+      "sha256": "13a6ef4332f78e768ca48d6a2584afdf39742599b5422c9ac6c60ad87a14cdea"
     },
     {
       "role": "android-voice",
@@ -89,7 +89,7 @@
   "packageArtifacts": [
     {
       "name": "@dobrodesk/mobile-protocol",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "files": [
         "package.json",
         "CHANGELOG.md",
@@ -114,28 +114,37 @@
         "dist/widget-content.d.ts",
         "dist/widget.d.ts"
       ],
-      "bytes": 29952,
-      "sha256": "35ff62c3027a4a44ed64656b5becd6ba261d43793866188bfa4654bf0dbe0155"
+      "bytes": 30523,
+      "sha256": "3e4684b8be625ca0b588322dc280fa6101f7747e488160f426aa964b4e359c93"
     },
     {
       "name": "@dobrodesk/react-native-sdk",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "files": [
         "package.json",
         "CHANGELOG.md",
+        "DobroDeskReactNative.podspec",
         "LICENSE",
         "README.md",
         "android/build.gradle",
+        "android/src/main/kotlin/com/dobrodesk/reactnative/DobroDeskReactNativeInlineOptions.kt",
         "android/src/main/kotlin/com/dobrodesk/reactnative/DobroDeskReactPackage.kt",
+        "android/src/main/kotlin/com/dobrodesk/reactnative/DobroDeskWidgetViewManager.kt",
         "artifact-manifest.json",
         "checksums.sha256",
+        "dist/DobroDeskWidgetViewNativeComponent.d.ts",
         "dist/NativeDobroDeskMobileSdk.d.ts",
         "dist/index.cjs",
         "dist/index.d.ts",
         "dist/index.js",
+        "dist/inline-widget-types.d.ts",
+        "dist/widget-view-copy.d.ts",
+        "dist/widget-view-types.d.ts",
         "ios/DobroDeskReactNative.podspec",
         "ios/Sources/DobroDeskReactNative.swift",
+        "ios/Sources/DobroDeskReactNativeInlineView.swift",
         "ios/Sources/RCTDobroDeskMobileSdk.mm",
+        "ios/Sources/RCTDobroDeskWidgetView.mm",
         "ios/native/ios/DobroDeskSDK.xcframework/Info.plist",
         "ios/native/ios/DobroDeskSDK.xcframework/ios-arm64/DobroDeskSDK.framework/DobroDeskSDK",
         "ios/native/ios/DobroDeskSDK.xcframework/ios-arm64/DobroDeskSDK.framework/Headers/DobroDeskSDK-Swift.h",
@@ -204,26 +213,30 @@
         "native/dobrodesk-ui-controller.jar",
         "native/dobrodesk-ui.aar",
         "native/dobrodesk-voice.aar",
-        "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.jar",
-        "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.jar",
-        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.pom",
+        "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.jar",
+        "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.jar",
+        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.pom",
         "react-native.config.js",
+        "src/DobroDeskWidgetViewNativeComponent.ts",
         "src/NativeDobroDeskMobileSdk.ts",
-        "src/index.ts"
+        "src/index.ts",
+        "src/inline-widget-types.ts",
+        "src/widget-view-copy.ts",
+        "src/widget-view-types.ts"
       ],
-      "bytes": 31031497,
-      "sha256": "8c5a0a23a89d3ef03594f34c4815c3720f7b6f600837eb74dca0ff512013166b"
+      "bytes": 31117224,
+      "sha256": "79e60deb9f6361631f55af7636cf835dbb97003e047a02953ea9ba38e93e418f"
     },
     {
       "name": "@dobrodesk/nativescript-sdk",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "files": [
         "package.json",
         "CHANGELOG.md",
@@ -233,10 +246,13 @@
         "android/src/main/kotlin/com/dobrodesk/nativescript/DobroDeskNativeScriptModule.kt",
         "artifact-manifest.json",
         "checksums.sha256",
+        "dist/index.android.js",
         "dist/index.cjs",
         "dist/index.common.d.ts",
         "dist/index.d.ts",
+        "dist/index.ios.js",
         "dist/index.js",
+        "dist/native-models.d.ts",
         "ios/DobroDeskNativeScript.podspec",
         "ios/DobroDeskNativeScriptModule.swift",
         "ios/native/ios/DobroDeskSDK.xcframework/Info.plist",
@@ -308,18 +324,19 @@
         "native/dobrodesk-ui-controller.jar",
         "native/dobrodesk-ui.aar",
         "native/dobrodesk-voice.aar",
-        "native/maven/com/dobrodesk/dobrodesk-nativescript/0.1.1/dobrodesk-nativescript-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-nativescript/0.1.1/dobrodesk-nativescript-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.jar",
-        "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.jar",
-        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.pom",
+        "native/maven/com/dobrodesk/dobrodesk-nativescript/0.2.0/dobrodesk-nativescript-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-nativescript/0.2.0/dobrodesk-nativescript-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.jar",
+        "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.jar",
+        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.pom",
+        "nativescript.webpack.js",
         "platforms/android/include.gradle",
         "platforms/ios/Podfile",
         "src/index.android.ts",
@@ -327,14 +344,16 @@
         "src/index.ios.ts",
         "src/index.ts",
         "src/native-models.ts",
-        "src/native-types.d.ts"
+        "src/native-types.d.ts",
+        "src/widget-lifecycle.ts",
+        "src/widget-view.ts"
       ],
-      "bytes": 31089820,
-      "sha256": "1bab7ed914029acbbf3c1e647c1becfa45e4eaa3eee51b8956ce9ed52cf2be4d"
+      "bytes": 31215436,
+      "sha256": "d7673ce6a3eaea5843ee5634bf291a8ef09f2f203d04f0aa15655844fe390436"
     },
     {
       "name": "@dobrodesk/capacitor-sdk",
-      "version": "0.1.1",
+      "version": "0.2.0",
       "files": [
         "package.json",
         "CHANGELOG.md",
@@ -343,11 +362,16 @@
         "README.md",
         "android/build.gradle",
         "android/src/main/kotlin/com/dobrodesk/capacitor/DobroDeskCapacitorPlugin.kt",
+        "android/src/main/kotlin/com/dobrodesk/capacitor/DobroDeskEmbeddedHost.kt",
         "artifact-manifest.json",
         "checksums.sha256",
+        "dist/embedded-layout.d.ts",
+        "dist/embedded-types.d.ts",
+        "dist/embedded.d.ts",
         "dist/index.cjs",
         "dist/index.d.ts",
         "dist/index.js",
+        "ios/Sources/DobroDeskCapacitorEmbeddedHost.swift",
         "ios/Sources/DobroDeskCapacitorPlugin.swift",
         "native/DobroDeskSDK.xcframework.zip",
         "native/DobroDeskUI.xcframework.zip",
@@ -417,20 +441,23 @@
         "native/ios/DobroDeskUI.xcframework/ios-arm64_x86_64-simulator/DobroDeskUI.framework/widget-experience-locale-es.json",
         "native/ios/DobroDeskUI.xcframework/ios-arm64_x86_64-simulator/DobroDeskUI.framework/widget-experience-locale-uk.json",
         "native/ios/Package.swift",
-        "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-push/0.1.1/dobrodesk-push-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.jar",
-        "native/maven/com/dobrodesk/dobrodesk-sdk/0.1.1/dobrodesk-sdk-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.jar",
-        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.1.1/dobrodesk-ui-controller-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-ui/0.1.1/dobrodesk-ui-0.1.1.pom",
-        "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.aar",
-        "native/maven/com/dobrodesk/dobrodesk-voice/0.1.1/dobrodesk-voice-0.1.1.pom",
+        "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-push/0.2.0/dobrodesk-push-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.jar",
+        "native/maven/com/dobrodesk/dobrodesk-sdk/0.2.0/dobrodesk-sdk-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.jar",
+        "native/maven/com/dobrodesk/dobrodesk-ui-controller/0.2.0/dobrodesk-ui-controller-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-ui/0.2.0/dobrodesk-ui-0.2.0.pom",
+        "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.aar",
+        "native/maven/com/dobrodesk/dobrodesk-voice/0.2.0/dobrodesk-voice-0.2.0.pom",
+        "src/embedded-layout.ts",
+        "src/embedded-types.ts",
+        "src/embedded.ts",
         "src/index.ts"
       ],
-      "bytes": 31029055,
-      "sha256": "5d83f17d18ed4ccaece3551e7b36b4d4c3ad85247db1186d986324685fd6bbf6"
+      "bytes": 31111144,
+      "sha256": "50d4db7d6ce9c98c29e8d34b56b3935b4dea487912cb5f89e1949197c83904cb"
     }
   ]
 }
