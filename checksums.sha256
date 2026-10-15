@@ -8,8 +8,8 @@ b9a59c99c4eeeb18869cecc24eccdba236da8d34a846fbc86449e9d988c6bee1  assets/dobrode
 13a6ef4332f78e768ca48d6a2584afdf39742599b5422c9ac6c60ad87a14cdea  assets/dobrodesk-nativescript.aar
 f0929e3322f4a1b819eecdcb528801bbb14201985cf319ca9aa69fbab8f969d2  assets/dobrodesk-voice.aar
 d794e7356b4a40243b4f303e1e447c837080579b45febc210bc6894d76a073f9  assets/dobrodesk-push.aar
-50d4db7d6ce9c98c29e8d34b56b3935b4dea487912cb5f89e1949197c83904cb  assets/npm-dobrodesk-capacitor-sdk-0.2.0.tgz
-3e4684b8be625ca0b588322dc280fa6101f7747e488160f426aa964b4e359c93  assets/npm-dobrodesk-mobile-protocol-0.2.0.tgz
-d7673ce6a3eaea5843ee5634bf291a8ef09f2f203d04f0aa15655844fe390436  assets/npm-dobrodesk-nativescript-sdk-0.2.0.tgz
-79e60deb9f6361631f55af7636cf835dbb97003e047a02953ea9ba38e93e418f  assets/npm-dobrodesk-react-native-sdk-0.2.0.tgz
-e274ba5a29325c8e45afd17e46b57020f0a5866fd3fc2d9b4b4ca3ab96d97dfa  assets/dobrodesk-mobile-sdk-0.2.0-bundle.tar.gz
+f0801ae55b2b78b15f4e795e4d5eec93ad16f61adeeb94791061620f48d345f7  assets/npm-dobrodesk-mobile-protocol-0.3.0.tgz
+6ef4e681bc90102be293521e436630b7ce25b75e411ad2b64f4477c4222ecc35  assets/npm-dobrodesk-nativescript-sdk-0.3.0.tgz
+edac0222f607f08d2196a3b7992fde720d1505e3331a2eecaac5b668fd3a71f4  assets/npm-dobrodesk-react-native-sdk-0.3.0.tgz
+608ab3db9a2700ee9bb488478da1375a93e678e793b54a24233cb58287b24837  assets/npm-dobrodesk-capacitor-sdk-0.3.0.tgz
+0f4b52abe454595798693add669b8e4473fba0488c72303507cd1462a9009e7f  assets/dobrodesk-mobile-sdk-0.3.0-bundle.tar.gz
