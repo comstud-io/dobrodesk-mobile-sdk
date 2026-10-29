@@ -1,8 +1,5 @@
-# DobroDesk Mobile SDK 0.3.0
+# DobroDesk Mobile SDK 0.4.0
 
-- Added the opt in push facade for TypeScript and Flutter hosts with explicit permission, token registration, scope validation and cleanup retry flows.
-- Added React Native, NativeScript and Capacitor push port adapters that reuse the host owned APNs or FCM integration without adding Firebase or requesting permission during client construction.
-- Added provider shaped APNs and FCM payload examples that refresh the existing conversation snapshot hook and keep account, integration and session scope checks in the SDK.
-- Added serialized token rotation, deferred token acquisition handling and logout cleanup that quarantines late callbacks while preserving explicit remote retry state.
-- Added framework neutral and NativeScript flow coverage for offline registration, malformed payloads, foreign scopes, duplicate refresh hints, detach during refresh and late cleanup results.
-- Documented that push is remote delivery and refresh integration only. Local notification scheduling and presentation remain owned by the host application.
+- Add optional native voice conversations to mobile widgets on iOS and Android, including AI voice, live-agent calls, mute and end controls, handoff and call history with transcripts.
+- Expose voice conversation operations and events through Flutter, React Native, NativeScript and Capacitor while keeping voice and microphone dependencies opt-in.
+- Add localized recording-consent prompts and call status and transcript labels in English, Ukrainian, German and Spanish.
